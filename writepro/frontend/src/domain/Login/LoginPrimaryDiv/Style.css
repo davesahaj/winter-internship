@@ -4,13 +4,13 @@
     height: 100vh;
   }
   
-  .left {
+.left {
        background-repeat:no-repeat;
       object-fit: cover;
       height: 100vh;
   }
   
-  .right {
+.right {
       text-align: center;
       background-color: white;
       object-fit: cover;

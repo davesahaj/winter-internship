@@ -2,17 +2,21 @@ import React from 'react'
 import { InputGroup, FormControl } from 'react-bootstrap'
 import './Style.css';
 
-const WpInputText = ({placeholder}) => {
+const STYLES = ['inputText--primary', 'inputText--secondary', 'inputText--tertiary']
+const SIZES = ['inputText--large', 'inputText--medium', 'inputText--small']
+
+const WpInputText = ({placeholder, inputTextStyle, inputTextSize}) => {
+    const checkInputTextStyle = STYLES.includes(inputTextStyle) ? inputTextStyle : STYLES[0]
+    const checkInputTextSize = SIZES.includes(inputTextSize) ? inputTextSize : SIZES[0]
     return (
-        <InputGroup className="mb-5">
+        <InputGroup className="">
         <FormControl
             placeholder={placeholder} 
             aria-label={placeholder} 
             aria-describedby={placeholder}
-            className="WpInputText rounded-0"
+            className={`rounded-0 text-center ${checkInputTextStyle} ${checkInputTextSize}`}
             />
         </InputGroup>
     )
 }
-
 export default WpInputText

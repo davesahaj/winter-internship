@@ -1,10 +1,24 @@
 import React from 'react';
-import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown, Image, Row, Col } from 'react-bootstrap';
+import './Style.css';
 
 const WpNavbar = () => {
     return (
-		<Navbar expand="lg">
-  		<Navbar.Brand href="#home">WritePro</Navbar.Brand>
+		<div className="fixed-top">
+		<div className="bg--light m-0">
+		<Row>
+			<Col>
+			</Col>
+			<Col className="text-center">
+			<h2 className="m-3 align-middle">WritePro.in</h2>
+			</Col>
+			<Col>
+				<Image className="float-right m-2" src="https://homepages.cae.wisc.edu/~ece533/images/zelda.png" height="50vh" roundedCircle />
+			</Col>
+		</Row>
+		
+		</div>
+		<Navbar bg="dark" variant="dark" expand="lg">
   		<Navbar.Toggle aria-controls="basic-navbar-nav" />
   		<Navbar.Collapse id="basic-navbar-nav">
     	<Nav className="mr-auto">
@@ -17,12 +31,9 @@ const WpNavbar = () => {
     		<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       	</NavDropdown>
     	</Nav>
-    	<Form inline>
-      	<FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      		<Button variant="outline-success">Search</Button>
-    	</Form>
   		</Navbar.Collapse>
 		</Navbar>
+		</div>
     )
 }
 

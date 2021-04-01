@@ -6,6 +6,16 @@
     color: #17252A;
 }
 
+.heading--secondary {
+    margin: 0.5em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #3AAFA9;
+}
+
 .heading--large {
     font-size: 8vw;
     line-height: 8vw;
@@ -16,6 +26,13 @@
 .heading--medium {
     font-size: 6vw;
     line-height: 6vw;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.heading--small {
+    font-size: 2vw;
+    line-height: 4vw;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
