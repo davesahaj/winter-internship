@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import WpButton from '../../../components/Button/WpButton'
 import WpHeading from '../../../components/Heading/WpHeading'
+import WpInputDropdown from '../../../components/InputDropdown/WpInputDropdown'
 import WpInputText from '../../../components/InputText/WpInputText'
 import './Style.css'
 
@@ -13,13 +14,13 @@ const WpSearchKeywordForm = () => {
                 <Container fluid>
                     <Row>
                         <Col>
-                            <WpInputText placeholder="Keywords" />
+                            <WpInputText placeholder="Keywords" inputTextStyle="inputText--secondary" />
                         </Col>
                         <Col>
-                            <WpInputText placeholder="Language" />
+                            <WpInputDropdown placeholder="Language" />
                         </Col>
                         <Col>
-                            <WpInputText placeholder="Country" />
+                            <WpInputDropdown placeholder="Country" />
                         </Col>
                     </Row>
                     <Row>

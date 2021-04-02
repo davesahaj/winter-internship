@@ -7,7 +7,7 @@ import "./Style.css"
 const WpReports = () => {
     return (
         <>
-            <Container className="container--primary">
+            <Container className="container--primary mt-4">
                 <WpHeading children="Your reports" headingStyle="heading--secondary" headingSize="heading--small" />
                 <Container fluid>
                     <Row>

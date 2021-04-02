@@ -14,7 +14,7 @@ const WpInputText = ({placeholder, inputTextStyle, inputTextSize}) => {
             placeholder={placeholder} 
             aria-label={placeholder} 
             aria-describedby={placeholder}
-            className={`rounded-0 text-center ${checkInputTextStyle} ${checkInputTextSize}`}
+            className={`rounded-0 ${checkInputTextStyle} ${checkInputTextSize}`}
             />
         </InputGroup>
     )

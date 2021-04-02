@@ -22,7 +22,7 @@ const App = () => {
             <Route exact path="/login2">
               <WpLoginSecondaryDiv />
             </Route>
-            <Route exact path="/home">
+            <Route exact path="/dashboard">
               <WpNavbar />
               <WpDashboardDiv />
             </Route>
