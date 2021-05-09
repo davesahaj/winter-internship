@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
 import { Helmet } from "react-helmet";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from 'react-bootstrap'
 import ButtonLight from "../../components/ButtonLight/ButtonLight";
 import { Link } from "react-router-dom";
-import allDeviceImg from "../../assets/allDevice.jpg";
+import allDeviceImg from "../../assets/allDevice.jpg"
+import logoImg from "../../assets/logo.png"
 
 const Home = () => {
   return (
@@ -15,27 +16,25 @@ const Home = () => {
       <Row className="homepage-col-1 text-center m-0 py-5">
         <Col sm={8} className="centerDiv">
           <div>
-            <Row>
-              <p className="display-4 mx-auto">
-                Search everything about anything!
-              </p>
-            </Row>
-            <Row>
-              <p class="h4">
-                WritePro is a tool to minimize your efforts in online research.
-                Use keywords to search and get all relevant articles, important
-                information on one single page.
-              </p>
-            </Row>
-            <Row className="my-4">
-              <Col></Col>
-              <Col>
-                <Link to="/DashboardUser">
-                  <ButtonLight bSize="btn-lg" text="Click here, Try WritePro" />
-                </Link>
-              </Col>
-              <Col></Col>
-            </Row>
+          <Row>
+            <p className="display-4 mx-auto">Search everything about anything!</p>
+          </Row>
+          <Row>
+            <p class="h4">
+                WritePro is a tool to minimize your efforts in online research. 
+                Use keywords to search and get all relevant articles, 
+                important information on one single page.
+            </p>
+          </Row>
+          <Row className="my-4">
+            <Col></Col>
+            <Col>
+            <Link to="/DashboardUser">
+            <ButtonLight bSize="btn-lg" text="Click here, Try WritePro" />
+            </Link>
+            </Col>
+            <Col></Col>
+          </Row>
           </div>
         </Col>
         <Col sm={4} className="centerDiv">
@@ -45,20 +44,23 @@ const Home = () => {
       <Row className="homepage-col-2 text-center m-0 py-5">
         <Col sm={1}></Col>
         <Col sm={2} className="centerDiv">
-          <Image className="" src="logo.png" />
+          <Image className="" src={logoImg} />
         </Col>
         <Col sm={1}></Col>
         <Col sm={8} className="centerDiv">
           <div>
-            <Row>
-              <p className="display-4 mx-auto">Features</p>
-            </Row>
-            <Row>
-              <p class="h4">
-                Search using Keywords, Add Filters, Manage which Articles to
-                use, Generate Reports, Share Reports with other Users.
-              </p>
-            </Row>
+          <Row>
+            <p className="display-4 mx-auto">Features</p>
+          </Row>
+          <Row>
+            <p class="h4">
+            Search using Keywords, 
+            Add Filters, 
+            Manage which Articles to use, 
+            Generate Reports, 
+            Share Reports with other Users.
+            </p>
+          </Row>
           </div>
         </Col>
       </Row>

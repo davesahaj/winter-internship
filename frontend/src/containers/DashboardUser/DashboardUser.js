@@ -18,8 +18,8 @@ const DashboardUser = () => {
 
     const [formData, setFormData] = useState({
         keywords: "Microservices",
-        country: "",
-        language: "",
+        country: "India",
+        language: "English",
       });
     const dispatch = useDispatch();
 
