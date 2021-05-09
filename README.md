@@ -1,6 +1,7 @@
 # Writepro
 
 Writepro is a Web Application for content writers and bloggers to automate the workflow.
+> [Project Report](/WI-Report2021.pdf)
 
 ## Installation
 
