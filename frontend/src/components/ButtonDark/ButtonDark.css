@@ -1,0 +1,14 @@
+/* color: "2B7A78",  background-color: '#2E4C80'  */
+
+.btn-dark {
+  color: #def2f1;
+  background-color: #3aafa9;
+  border-color: #3aafa9;
+  border-radius: 0%;
+}
+.btn-dark:hover {
+  color: #def2f1;
+  background-color: #2b7a78;
+  border-color: #def2f1;
+  border-radius: 0%;
+}

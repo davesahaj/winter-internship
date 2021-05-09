@@ -1,0 +1,10 @@
+.custom-txtbx {
+  color: #2b7a78;
+  border: 2px solid #def2f1;
+}
+
+.custom-txtbx:focus {
+  outline: none;
+  border-color: #3aafa9;
+  box-shadow: 0 0 10px #2b7a78;
+}

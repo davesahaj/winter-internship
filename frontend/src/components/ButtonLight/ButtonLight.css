@@ -1,0 +1,16 @@
+/* color: "2B7A78",  background-color: '#2E4C80'  */
+
+.btn-light {
+  color: #2b7a78;
+  background-color: #def2f1;
+  border-color: #f2e3de;
+  border-radius: 0%;
+}
+.btn-light:hover {
+  color: #def2f1;
+  background-color: #2b7a78;
+  border-color: #def2f1;
+  border-radius: 0%;
+}
+
+
